@@ -1,0 +1,28 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+.technologies {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.techlist {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  padding: 1rem;
+  transition: background 0.3s ease-in;
+}
+.techlist:hover {
+  background: rgb(228, 228, 228);
+  color: rgb(87, 174, 255);
+}
+.fab {
+  transform: scale(1.5);
+}

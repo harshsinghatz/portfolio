@@ -1,0 +1,13 @@
+.socials {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+.social-link {
+  color: var(--primary);
+  font-size: 1.8rem;
+}
+.social-link:hover {
+  color: rgb(87, 174, 255);
+}

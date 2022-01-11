@@ -1,0 +1,13 @@
+.heading {
+  font-size: 2.5rem;
+  font-size: 48px;
+  transition: font-size 0.3s ease;
+}
+.sub-header {
+  color: gray;
+  font-size: 36px;
+}
+.heading:hover {
+  text-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+}

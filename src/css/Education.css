@@ -1,0 +1,11 @@
+.education {
+  margin: 2rem 0;
+}
+.college {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+.qualification {
+  font-weight: 700;
+}

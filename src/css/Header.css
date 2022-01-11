@@ -1,0 +1,8 @@
+.navbar {
+  padding: 1rem;
+  z-index: 1000;
+}
+.navbar-brand {
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+}
